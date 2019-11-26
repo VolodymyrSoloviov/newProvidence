@@ -1,0 +1,50 @@
+.subscribe {
+	min-height: 350px;
+	padding: 80px 0;
+	background-color: #fff;
+}
+
+.subscribe__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.subscribe__title {
+	margin-bottom: 40px;
+	font-family: varela_roundregular;
+	font-size: 42px;
+	color: $black;
+}
+
+.subscribe__form {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 22px;
+	padding: 3px 3px 3px 25px;
+	height: 50px;
+	width: 560px;
+	border: 1px solid #d4d4d5;
+	border-radius: 40px;
+}
+
+.subscribe__formEmail {
+	font-size: 16px;
+	border: none;
+	outline: none;
+}
+
+.subscribe__formBtn {
+	width: 134px;
+	font-size: 16px;
+	border-radius: 40px;
+	border: none;
+	color: #fff;
+	background-color: #6fc754;
+	cursor: pointer;
+	outline: none;
+}
+
+.subscribe__text {
+	font-size: 14px;
+}

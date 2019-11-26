@@ -1,0 +1,100 @@
+.buy {
+	padding-top: 75px;
+	min-height: 550px;
+	background-color: #f5f5f8;
+}
+
+.buy__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buy__text {
+	margin-bottom: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #3a3d4b;
+
+	span {
+		font-weight: 700;
+	}
+}
+
+.buy__title {
+	margin-bottom: 40px;
+	font-family: varela_roundregular;
+	font-size: 42px;
+	color: #3a3d4b;
+}
+
+.buy__form {
+	margin-bottom: 65px;
+	width: 500px;
+	height: 50px;
+	padding: 3px 3px 3px 25px;
+	border: 1px solid #cbcbce;
+	border-radius: 40px;
+}
+
+.buy__form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buy__formEmail {
+	width: 60%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+
+.buy__formBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 165px;
+	background-color: #6fc754;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.buy__formBtn-text {
+	margin-right: 15px;
+	color: $white;
+	font-size: 16px;
+}
+
+.buy__formBtn-icon {
+	width: 13px;
+  height: 13px;
+  background: url(../img/icons/arrowRight.png) center center no-repeat;
+}
+
+.buy__link {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	width: 210px;
+	padding: 10px 25px;
+	border-radius: 30px;
+	background-color: #131315;
+	text-decoration: none;
+	color: $white;
+}
+
+.buy__linkIcon {
+	margin-right: 15px;
+	font-size: 28px;
+	color: $white;
+}
+
+.buy__linkText-block {
+	font-size: 12px;
+	line-height: 1;
+}
+
+.buy__linkText-blockBig {
+	font-size: 23px;
+}

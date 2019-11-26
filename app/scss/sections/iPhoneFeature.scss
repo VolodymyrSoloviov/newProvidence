@@ -1,0 +1,69 @@
+.iPhoneFeature {
+	min-height: 900px;
+	padding-top: 210px;
+	background: url('../img/bg/Iphone6.png') left center no-repeat;
+}
+
+.iPhoneFeature__wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.iPhoneFeature__info {
+	width: 40%;
+
+	p {
+		font-size: 20px;
+	}
+}
+
+.iPhoneFeature__title {
+	margin-bottom: 60px;
+	font-family: varela_roundregular;
+	font-size: 42px;
+	color: $black;
+}
+
+.iPhoneFeature__text {
+	margin-bottom: 75px;
+}
+
+.iPhoneFeature__btns {
+	display: flex;
+}
+
+.iPhoneFeature__btn1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 42px;
+	width: 200px;
+	margin-right: 20px;
+	padding: 0 15px 0 25px;
+	border: none;
+	background-color: #267df4;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.iPhoneFeature__btn1-text {
+	font-size: 16px;
+	color: $white;
+}
+
+.iPhoneFeature__btn1-arrow {
+	width: 13px;
+	height: 13px;
+	background: url('../img/icons/arrowRight.png') center center no-repeat;
+}
+
+.iPhoneFeature__btn2 {
+	height: 42px;
+	padding: 0 30px;
+	background-color: #fff;
+	border: 1px solid #e9e9ea;
+	color: $black;
+	font-size: 16px;
+	border-radius: 30px;
+	cursor: pointer;
+}

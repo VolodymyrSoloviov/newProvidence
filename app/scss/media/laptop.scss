@@ -1,0 +1,55 @@
+// Large devices (desktops)
+@media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
+
+	.menuOne__item {
+		margin-right: 20px;
+
+		&:first-child {
+			margin-right: 20px;
+		}
+	}
+
+	.menuTwo__item {
+		margin-left: 20px;
+	}
+
+	.header__block-title {
+		text-align: center;
+	}
+
+	.header__block-text {
+		width: 100%;
+	}
+
+	.iPhoneFeature__wrap {
+		justify-content: flex-start;
+	}
+
+	.iPhoneFeature__info {
+		width: 100%;
+	}
+
+	.iPhoneFeature {
+		background: none;
+	}
+
+	.mapFeature__info {
+		width: 100%;
+	}
+
+	.plan__form {
+		flex-direction: column;
+	}
+
+	.plan__left,
+	.plan__right {
+		width: 100%;
+	}
+
+	.footer__menu {
+		width: 150px;
+	}
+}

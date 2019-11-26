@@ -1,0 +1,50 @@
+.mapFeature {
+	min-height: 900px;
+	padding-top: 210px;
+	background: url('../img/bg/map.png') right center no-repeat;
+}
+
+.mapFeature__info {
+	width: 40%;
+
+	p {
+		font-size: 20px;
+	}
+}
+
+.mapFeature__title {
+	margin-bottom: 60px;
+	font-family: varela_roundregular;
+	font-size: 42px;
+	color: $black;
+}
+
+.mapFeature__text {
+	margin-bottom: 65px;
+}
+
+.mapFeature__partners {
+	margin-bottom: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: $black;
+}
+
+.mapFeature__boxes {
+	display: flex;
+}
+
+.mapFeature__dropbox,
+.mapFeature__evernote {
+	width: 150px;
+	height: 36px;
+}
+
+.mapFeature__dropbox {
+	background: url('../img/logos/dropbox.png') left center no-repeat;
+}
+
+.mapFeature__evernote {
+	background: url('../img/logos/evernote.png') left center no-repeat;
+}

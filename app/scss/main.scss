@@ -1,0 +1,31 @@
+//layout vars
+$container-width: 1170px;
+
+//colors
+$white: #fff;
+$gray: #8c8f94;
+$black: #26272d;
+
+//layout
+@import "layout/adjustment";
+@import "layout/fonts";
+
+//sections
+@import "sections/header";
+@import "sections/features";
+@import "sections/iPhoneFeature";
+@import "sections/mapFeature";
+@import "sections/iPhoneScreens";
+@import "sections/buy";
+@import "sections/customers";
+@import "sections/plan";
+@import "sections/subscribe";
+@import "sections/footer";
+@import "sections/additional";
+
+// media
+@import "media/tv";
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";

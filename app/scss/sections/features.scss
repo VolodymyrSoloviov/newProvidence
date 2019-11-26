@@ -1,0 +1,40 @@
+.features {
+	min-height: 600px;
+	padding: 120px 0 40px;
+	background-color: #fff;
+}
+
+.features__info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 440px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.features__left,
+.features__right {
+	width: calc(100%/2 - 15px);
+	padding: 0 30px 0 40px;
+}
+
+.features__left-icon,
+.features__right-icon {
+	height: 52px;
+	margin-bottom: 40px;
+}
+
+.features__left-icon {
+	background: url('../img/icons/lock.png') left bottom no-repeat;
+}
+
+.features__right-icon {
+	background: url('../img/icons/clock.png') left bottom no-repeat;
+}
+
+.features__title {
+	margin-bottom: 40px;
+	font-weight: 300;
+	font-size: 26px;
+	color: $black;
+}

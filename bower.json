@@ -1,0 +1,24 @@
+{
+  "name": "Template",
+  "description": "My template bower",
+  "main": "gulpfile.js",
+  "authors": [
+    "Volodymyr Soloviov"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "jquery-ui": "^1.12.1",
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,148 @@
+// Small devices (landscape phones)
+@media screen and (max-width: 576px) {
+	.container {
+		width: 95%;
+	}
+
+	.header__block-title {
+		font-size: 40px;
+	}
+
+	.header__block-text {
+		font-size: 18px;
+	}
+
+	.header__block-bg {
+		display: none;
+	}
+
+	.features__info {
+		border: none;
+	}
+
+	.features__left,
+	.features__right,
+	.iPhoneFeature__info,
+	.mapFeature__text {
+
+		p {
+			text-align: justify;
+		}
+	}
+
+	.header,
+	.features,
+	.mapFeature,
+	.iPhoneScreens,
+	.buy,
+	.customers,
+	.plan,
+	.subscribe {
+		min-height: auto;
+		padding: 45px 0;
+	}
+
+	.iPhoneFeature {
+		padding: 45px 0;
+	}
+
+	.iPhoneFeature__title,
+	.mapFeature__title,
+	.iPhoneScreens__title,
+	.buy__title,
+	.plan__title,
+	.subscribe__title {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.iPhoneFeature__btns {
+		flex-direction: column;
+	}
+
+	.iPhoneFeature__btn1 {
+		margin-bottom: 20px;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.mapFeature {
+		background: none;
+	}
+
+	.iPhoneScreens__list {
+		flex-wrap: wrap;
+	}
+
+	.iPhoneScreens__item {
+		width: 100%;
+		height: auto;
+		margin: 0 5px 20px 5px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.iPhoneScreens__itemImg {
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+
+	.buy__form {
+		font-size: 16px;
+		padding: 3px;
+	}
+
+	.buy__formEmail {
+		width: 80%;
+	}
+
+	.buy__formBtn {
+		width: 20%;
+	}
+
+	.buy__formBtn-text {
+		display: none;
+	}
+
+	.customers__item {
+		display: none;
+	}
+
+	.customers__item.customers__item_active {
+		display: block;
+	}
+
+	.plan__left {
+		margin: 0;
+	}
+
+	.plan__right {
+		flex-direction: column;
+	}
+
+	.plan__blockWrap {
+		width: 100%;
+	}
+
+	.subscribe__form {
+		padding-left: 11px;
+		font-size: 16px;
+	}
+
+	.footer {
+		padding-top: 45px;
+	}
+
+	.footer__topRight {
+		flex-wrap: wrap;
+	}
+
+	.footer__menu {
+		width: 140px;
+		margin-bottom: 20px;
+	}
+
+}

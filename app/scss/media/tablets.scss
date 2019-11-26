@@ -1,0 +1,109 @@
+// Medium devices (tablets)
+@media screen and (max-width: 768px) {
+	.container {
+		width: 480px;
+	}
+
+	.header {
+		background-size: cover;
+	}
+
+	.header__menu {
+		flex-direction: column;
+	}
+
+	.menuOne {
+		flex: none;
+		margin-bottom: 20px;
+	}
+
+	.logo {
+		flex: none;
+		order: -1;
+		margin-bottom: 20px;
+	}
+
+	.menuTwo {
+		flex: none;
+	}
+
+	.features__info {
+		flex-direction: column;
+	}
+
+	.features__left {
+		margin-bottom: 20px;
+	}
+
+	.features__left,
+	.features__right {
+		width: 100%;
+		padding: 0;
+	}
+
+	.iPhoneFeature,
+	.mapFeature,
+	.iPhoneScreens,
+	.buy,
+	.customers,
+	.plan,
+	.subscribe {
+		min-height: auto;
+		padding: 60px 0;
+	}
+
+	.customers__item {
+		margin: 0 28px;
+	}
+
+	.customers__arrowLeft {
+		left: 0;
+	}
+
+	.customers__arrowRight {
+		right: 0;
+	}
+
+	.customers__listText {
+		width: 100%;
+	}
+
+	.customers__listText-itemRating {
+		margin-bottom: 0;
+	}
+
+	.plan__right {
+		justify-content: center;
+	}
+
+	.plan__blockWrap {
+		width: calc(50% - 1px);
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.plan__block,
+	.buy__form,
+	.subscribe__form {
+		width: 100%;
+	}
+
+	.footer {
+		padding-top: 60px;
+	}
+
+	.footer__top {
+		flex-direction: column;
+	}
+
+	.footer__topLeft {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.scroll-btn {
+		right: 20px;
+	}
+}

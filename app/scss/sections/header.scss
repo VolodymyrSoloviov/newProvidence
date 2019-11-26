@@ -1,0 +1,150 @@
+.header {
+	min-height: 1000px;
+	padding-top: 45px;
+	//background-color: #ededee;
+	background: url('../img/bg/header-bg.jpg') center center no-repeat;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menuOne__list {
+	display: flex;
+}
+
+.menuOne__item {
+	margin-right: 40px;
+	font-size: 16px;
+
+		&:first-child {
+			margin-right: 30px;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+}
+
+.menuOne__item-link {
+	text-decoration: none;
+	color: $black; 
+}
+
+.menuOne {
+	flex: 1 1 100px;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	flex: 1 1 100px;
+}
+
+.menuTwo {
+	flex: 1 1 100px;
+}
+
+.logo__text {
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	color: $black;
+
+	span {
+		font-weight: 400;
+	}
+}
+
+.menuTwo__list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menuTwo__item {
+	margin-left: 30px;
+
+	&:first-child {
+		margin-left: 0;
+
+		a {
+			color: $gray;
+		}
+	}
+}
+
+.menuTwo__item-link {
+	text-decoration: none;
+	font-size: 16px;
+	color: $black;
+}
+
+.menuTwo__btn {
+	width: 132px;
+	height: 42px;
+	font-weight: 700;
+	color: $white;
+	background-color: #267df4;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.menuTwo__btn-text {
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.header__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__block-title {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-family: varela_roundregular;
+	font-size: 62px;
+	color: $black;
+}
+
+.header__block-text {
+	margin-bottom: 60px;
+	width: 800px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.header__block-btn {
+	display: flex;
+	margin-bottom: 46px;
+	padding: 0 45px;
+	align-items: center;
+	height: 50px;
+	border: 1px solid #dadcdf;
+	background-color: transparent;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.header__block-btnIcon {
+	font-size: 11px;
+	margin-right: 10px;
+}
+
+.header__block-btnText {
+	font-size: 16px;
+	color: $black;
+}
+
+.header__block-bg {
+	height: 455px;
+	width: 370px;
+	background-color: red;
+	background: url('../img/bg/Iphone-bg.png') 37% 3% no-repeat;
+}
+
